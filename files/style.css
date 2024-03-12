@@ -353,19 +353,19 @@ body {
 }
 
 .progress-line.html span {
-    width: 90%;
-}
-
-.progress-line.css span {
     width: 80%;
 }
 
-.progress-line.python span {
-    width: 75%;
+.progress-line.css span {
+    width: 60%;
+}
+
+.progress-line.MySQL span {
+    width: 50%;
 }
 
 .progress-line.java span {
-    width: 50%;
+    width: 90%;
 }
 
 .progress-line.cpls span {
@@ -386,19 +386,19 @@ body {
 }
 
 .progress-line.html span::after {
-    content: "90%";
-}
-
-.progress-line.css span::after {
     content: "80%";
 }
 
-.progress-line.python span::after {
+.progress-line.css span::after {
+    content: "60%";
+}
+
+.progress-line.MySQL span::after {
     content: "75%";
 }
 
 .progress-line.java span::after {
-    content: "50%";
+    content: "90%";
 }
 
 .progress-line.cpls span::after {
@@ -515,8 +515,8 @@ body {
 }
 
 .main-text h2 {
-    font-size: 60px;
-    line-height: 1;
+    font-size: 30px;
+    line-height: 0.5;
     text-align: center;
     padding: 50px;
     padding-bottom: 110px;
@@ -545,21 +545,21 @@ body {
     width: 100%;
     max-width: 300px;
     max-height: 300px;
-    border-radius: 15px;
+    border-radius: 30px;
     display: block;
     transition: transform 0.5s;
-    padding: 10px;
+    padding: 15px;
 }
 
 .layer {
     width: 100%;
-    max-width: 300px;
-    max-height: 300px;
+    max-width: 500px;
+    max-height: 500px;
     height: 0;
     opacity: 0;
     background: linear-gradient(rgba(255, 255, 255, 0.5), #0ef);
     position: absolute;
-    border-radius: 8px;
+    border-radius: 15px;
     left: 0;
     bottom: 0;
     overflow: hidden;
@@ -574,16 +574,16 @@ body {
 
 .layer h5 {
     color: #000;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .layer p {
     color: black;
     font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.8;
+    font-weight: 300;
+    line-height: 1.2;
     text-align: justify;
 }
 
